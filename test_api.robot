@@ -5,7 +5,7 @@ Library  RequestsLibrary
 Test Addition API
     [Documentation]  Test the /plus/a/b endpoint of the API
     [Tags]  API
-    Create Session  api_session  http://localhost:8080  # Adjust the URL based on your API's address and port
+    Create Session  api_session  http://localhost:5000  # Adjust the URL based on your API's address and port
 
     # Test case for positive numbers
     ${response}  GET On Session  api_session  /plus/2/3
